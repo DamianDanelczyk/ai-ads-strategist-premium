@@ -1,27 +1,12 @@
-<p align="center">
-  <img src=".github/banner.svg" alt="AI Ads Strategist for Claude Code" width="900"/>
-</p>
-
-<p align="center">
-  <strong>AI Ads Strategist for Claude Code.</strong> Build complete ad strategies, generate platform-specific copy,<br/>
-  design campaign funnels, allocate budgets, and produce client-ready PDF reports — 15 skills, 5 parallel agents, 6 platforms.
-</p>
-
-<p align="center">
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"/></a>
-  <img src="https://img.shields.io/badge/Skills-15-blue" alt="15 Skills"/>
-  <img src="https://img.shields.io/badge/Agents-5-orange" alt="5 Agents"/>
-  <img src="https://img.shields.io/badge/Platforms-6-green" alt="6 Platforms"/>
-  <img src="https://img.shields.io/badge/Python-3.8+-blue" alt="Python 3.8+"/>
-  <img src="https://img.shields.io/badge/PDF-Reports-red" alt="PDF Reports"/>
-</p>
+> **AI-powered advertising strategy engine for Claude Code.** Build complete ad strategies, generate platform-specific copy,
+> design campaign funnels, allocate budgets, and produce client-ready PDF reports — 15 skills, 5 parallel agents, 6 platforms.
 
 ---
 
 ## Quick Start
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/zubair-trabzada/ai-ads-claude/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/DamianDanelczyk/ai-ads-strategist-premium/main/install.sh | bash
 ```
 
 That's it. One command installs all 15 skills, 5 agents, and the PDF generation scripts.
@@ -76,7 +61,7 @@ No ad platform login required. No API keys. Just Claude Code.
 ### Strategy & Analysis
 
 | Command | What It Does |
-|---------|-------------|
+| --- | --- |
 | `/ads strategy <url>` | **Flagship** — Full ad strategy with 5 parallel agents. Returns Ad Readiness Score (0-100), audience personas, campaign structure, ad copy, budget allocation, and prioritized action plan. |
 | `/ads quick <url>` | 60-second ad readiness snapshot — value proposition, offer strength, CTA quality, platform recommendation. |
 | `/ads audience <url>` | Build detailed audience personas with demographics, psychographics, platform preferences, and targeting parameters. |
@@ -87,7 +72,7 @@ No ad platform login required. No API keys. Just Claude Code.
 ### Creative & Copy
 
 | Command | What It Does |
-|---------|-------------|
+| --- | --- |
 | `/ads copy <platform>` | Generate platform-specific ad copy — headlines, primary text, descriptions, CTAs for any platform. |
 | `/ads hooks` | Generate 20 scroll-stopping hooks — pattern interrupts, curiosity gaps, bold claims for social ads. |
 | `/ads creative <product>` | Creative briefs for designers and editors — visual direction, format specs, brand guidelines. |
@@ -96,7 +81,7 @@ No ad platform login required. No API keys. Just Claude Code.
 ### Funnel & Budget
 
 | Command | What It Does |
-|---------|-------------|
+| --- | --- |
 | `/ads funnel <url>` | Full ads funnel architecture — TOFU/MOFU/BOFU/Retargeting with ad types, audiences, and KPIs per stage. |
 | `/ads budget <amount>` | Budget allocation across platforms — percentage splits, monthly amounts, projected CPM/CPC/CPA/ROAS. |
 | `/ads testing <campaign>` | A/B testing plan — variables to test, sample sizes, duration, success criteria, statistical significance. |
@@ -105,7 +90,7 @@ No ad platform login required. No API keys. Just Claude Code.
 ### Reporting
 
 | Command | What It Does |
-|---------|-------------|
+| --- | --- |
 | `/ads report-pdf` | Professional 6-page PDF strategy report — score dashboard, personas, funnel, ad copy, budget projections. |
 
 ---
@@ -113,7 +98,7 @@ No ad platform login required. No API keys. Just Claude Code.
 ## Supported Platforms
 
 | Platform | Ad Types | Best For |
-|----------|----------|----------|
+| --- | --- | --- |
 | **Google Ads** | Search, Display, Shopping, YouTube | High-intent search, product listings, retargeting |
 | **Meta (Facebook/Instagram)** | Feed, Story, Reels, Carousel, Lead Forms | B2C, e-commerce, local businesses, lookalike audiences |
 | **LinkedIn** | Sponsored Content, InMail, Text Ads | B2B, SaaS, professional services, recruiting |
@@ -128,7 +113,7 @@ No ad platform login required. No API keys. Just Claude Code.
 The **Ad Readiness Score** (0-100) is a weighted composite of 5 dimensions:
 
 | Category | Weight | What It Measures |
-|----------|--------|------------------|
+| --- | --- | --- |
 | Audience Clarity | 25% | ICP definition, persona depth, targeting precision |
 | Creative Quality | 20% | Hook strength, copy quality, visual concepts, video scripts |
 | Funnel Architecture | 20% | Campaign structure, stages, retargeting, conversion path |
@@ -138,7 +123,7 @@ The **Ad Readiness Score** (0-100) is a weighted composite of 5 dimensions:
 ### Grade Interpretation
 
 | Grade | Score | Meaning |
-|-------|-------|---------|
+| --- | --- | --- |
 | **A+** | 95-100 | Elite — campaign-ready, launch immediately |
 | **A** | 90-94 | Excellent — minor optimizations before launch |
 | **A-** | 85-89 | Very strong — refine targeting or creative |
@@ -208,18 +193,23 @@ Saved: ADS-STRATEGY-AcmeGrowth.md
 ## Use Cases
 
 ### Agency Owners
+
 Run `/ads strategy` for any prospect to deliver a professional ad strategy audit. Charge $500-$2,000 per audit, or use it as a lead magnet to close retainer deals.
 
 ### E-commerce Brands
+
 Generate platform-specific ad copy for product launches across Meta, Google Shopping, TikTok, and Pinterest. Use `/ads funnel` to design a complete TOFU-to-retargeting campaign architecture.
 
 ### SaaS Companies
+
 Build audience personas for B2B targeting on LinkedIn and Google Search. Use `/ads budget` to allocate spend across platforms and project CAC, LTV, and ROAS.
 
 ### Local Businesses
+
 Get started with the right platform and budget. `/ads quick` identifies whether Google Ads or Meta is better for your service area, and `/ads budget` shows how to allocate a small budget effectively.
 
 ### Freelancers
+
 Add ad strategy to your service offering. Use `/ads report-pdf` to deliver professional PDF reports that justify your rates and demonstrate expertise.
 
 ---
@@ -228,21 +218,21 @@ Add ad strategy to your service offering. Use `/ads report-pdf` to deliver profe
 
 ### Prerequisites
 
-- **Claude Code** (with an active Anthropic API key)
-- **Python 3.8+** (for PDF generation only)
-- **reportlab** — `pip3 install reportlab` (for PDF generation only)
+* **Claude Code** (with an active Anthropic API key)
+* **Python 3.8+** (for PDF generation only)
+* **reportlab** — `pip3 install reportlab` (for PDF generation only)
 
 ### One-Line Install
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/zubair-trabzada/ai-ads-claude/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/DamianDanelczyk/ai-ads-strategist-premium/main/install.sh | bash
 ```
 
 ### Manual Install
 
 ```bash
-git clone https://github.com/zubair-trabzada/ai-ads-claude.git
-cd ai-ads-claude
+git clone https://github.com/DamianDanelczyk/ai-ads-strategist-premium.git
+cd ai-ads-strategist-premium
 chmod +x install.sh
 ./install.sh
 ```
@@ -250,7 +240,7 @@ chmod +x install.sh
 ### Uninstall
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/zubair-trabzada/ai-ads-claude/main/uninstall.sh | bash
+curl -fsSL https://raw.githubusercontent.com/DamianDanelczyk/ai-ads-strategist-premium/main/uninstall.sh | bash
 ```
 
 Or run locally:
@@ -264,7 +254,7 @@ Or run locally:
 ## Project Structure
 
 ```
-ai-ads-claude/
+ai-ads-strategist-premium/
 ├── ads/
 │   └── SKILL.md                      # Main orchestrator (command router)
 ├── skills/
@@ -304,20 +294,17 @@ This tool is for educational and informational purposes only. Ad strategy recomm
 
 ---
 
+## License
+
+MIT License — see [LICENSE](https://github.com/DamianDanelczyk/ai-ads-strategist-premium/blob/main/LICENSE) for details.
+
+---
+
 <p align="center">
   <strong>Part of the Claude Code Skills Series</strong><br>
-  <a href="https://github.com/zubair-trabzada/ai-marketing-claude">AI Marketing Suite</a> ·
-  <a href="https://github.com/zubair-trabzada/ai-sales-team-claude">AI Sales Team</a> ·
-  <a href="https://github.com/zubair-trabzada/ai-legal-claude">AI Legal Assistant</a> ·
-  <a href="https://github.com/zubair-trabzada/ai-reputation-claude">AI Reputation Manager</a> ·
-  <a href="https://github.com/zubair-trabzada/geo-seo-claude">GEO/SEO Optimizer</a> ·
+  <a href="https://github.com/DamianDanelczyk/ai-sales-team-premium">AI Sales Team</a> ·
+  <a href="https://github.com/DamianDanelczyk/ai-legal-team-claude">AI Legal Assistant</a> ·
+  <a href="https://github.com/DamianDanelczyk/ai-marketing-team-premium">AI Marketing Suite</a> ·
+  <a href="https://github.com/DamianDanelczyk/geo-seo-premium">GEO-SEO</a> ·
   <strong>AI Ads Strategist</strong>
-</p>
-
-<p align="center">
-  <a href="https://skool.com/aiworkshop">Learn How to Sell Claude Code Services to Real Businesses</a>
-</p>
-
-<p align="center">
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"/></a>
 </p>
